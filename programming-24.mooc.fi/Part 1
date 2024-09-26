@@ -1,0 +1,24 @@
+#Programming exercise: Emoticon
+print (":-)")
+
+# Programming exercise: Fix the code: Seven Brothers
+#reorder the provided list to be in alphabetical order:
+  #print("Simeoni")
+  #print("Juhani")
+  #print("Eero")
+  #print("Lauri")
+  #print("Aapo")
+  #print("Tuomas")
+  #print("Timo")
+##brute force approach
+print("Aapo")
+print("Eero")
+print("Juhani")
+print("Lauri")
+print("Simeoni")
+print("Timo")
+print("Tuomas")
+## smart solution using google
+mylist = ["Aapo", "Eero", "Juhani", "Lauri", "Simeoni", "Timo", "Tuomas" ]
+sorted_list = sorted(mylist)
+print(sorted_list)
